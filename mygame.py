@@ -47,9 +47,6 @@ score = 0
 Forest_surface = pygame.image.load("graphics/forest.jpg").convert()
 Ground_surface = pygame.image.load("graphics/ground.jpg").convert()
 
-# -------------------------------
-# GHOST IMAGE: LOAD → REMOVE BG → RESIZE
-# -------------------------------
 GHOST_WIDTH = 80
 GHOST_HEIGHT = 80
 
@@ -61,9 +58,6 @@ obstacle_list = []
 passed_obstacles = set()
 next_ghost_id = 0
 
-# -------------------------------
-# SPIDERMAN PLAYER RESIZE
-# -------------------------------
 PLAYER_WIDTH = 120
 PLAYER_HEIGHT = 200
 
@@ -74,9 +68,6 @@ player_rect = player_surf.get_rect(midbottom=(80, 300))
 player_hitbox = player_rect.inflate(-40, -20)
 player_gravity = 0
 
-# -------------------------------
-# SPIDERMAN STANDING / INTRO IMAGE RESIZE
-# -------------------------------
 PLAYER_STAND_WIDTH = 150
 PLAYER_STAND_HEIGHT = 180
 
@@ -180,3 +171,4 @@ while True:
 
     pygame.display.update()
     clock.tick(70)
+
