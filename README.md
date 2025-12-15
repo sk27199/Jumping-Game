@@ -55,5 +55,8 @@ These improvements would build on the exisiting logic without changing the core 
 
 # How to run
 
-pip install pygame
+```
+// pip install pygame
 python mygame.py
+```
+
