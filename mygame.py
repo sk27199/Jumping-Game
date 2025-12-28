@@ -3,7 +3,6 @@ from sys import exit
 from random import randint
 
 def remove_background(image, bg_color=(255, 255, 255)):
-    """Remove a single background color and make it transparent."""
     image = image.convert_alpha()
     width, height = image.get_size()
 
@@ -110,7 +109,6 @@ while True:
                 player_rect.midbottom = (80, 300)
                 player_gravity = 0
 
-        # FIXED — Ghost spawning guaranteed
         if event.type == obstacle_timer and game_active:
             if not obstacle_list:
                 can_spawn = True
@@ -171,4 +169,5 @@ while True:
 
     pygame.display.update()
     clock.tick(70)
+
 
