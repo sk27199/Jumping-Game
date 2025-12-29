@@ -36,7 +36,7 @@ The project demonstrates:
 
 # Challenges and Learning Outcomes
 
-One of the biggest challenge I faced was making the collision accurate as the image included a transparent background so that would mean that the collision would happen with a space between both characters. To combat this I adjusted hitboxes rather than relying on the image boundaries as I had kept changing the characters so the sizes of the images were different so adjusting hitboxes made more sense.
+One of the biggest challenge I faced was making the collision accurate as the image included a transparent background so that would mean that the collision would happen within the space between both characters. To combat this I adjusted hitboxes rather than relying on the image boundaries as I had kept changing the characters so the sizes of the images were different so adjusting hitboxes made more sense.
 
 Another challenge I faced was ensuring the bombs are spawned at appropraite distances. I implemented spacing logic to prevent unfair overlaps and improve gameplay flow.
 
